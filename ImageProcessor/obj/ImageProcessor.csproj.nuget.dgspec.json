@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor\\ImageProcessor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor.Contracts\\ImageProcessor.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor.Contracts\\ImageProcessor.Contracts.csproj",
+        "projectName": "ImageProcessor.Contracts",
+        "projectPath": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor.Contracts\\ImageProcessor.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Alejandro.Severiche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alejandro.Severiche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/DHubNugetFeed/nuget/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/Trader.Aggregate/nuget/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/Trader.Marketplace/nuget/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/Trader.Prerelease%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor\\ImageProcessor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor\\ImageProcessor.csproj",
+        "projectName": "ImageProcessor",
+        "projectPath": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor\\ImageProcessor.csproj",
+        "packagesPath": "C:\\Users\\Alejandro.Severiche\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alejandro.Severiche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/DHubNugetFeed/nuget/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/Trader.Aggregate/nuget/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/Trader.Marketplace/nuget/v3/index.json": {},
+          "https://trader-dhub.pkgs.visualstudio.com/_packaging/Trader.Prerelease%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor.Contracts\\ImageProcessor.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor.Contracts\\ImageProcessor.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G4Ufi2bB+M9cK51UwPvjZPfInkXxzojQFzZlah2+9CYV+MSbTW4/yzV4SqKgUfDuEl/6bsgQio67UpemYbTABQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alejandro.Severiche\\Documents\\repos\\ImageProcessor\\ImageProcessor.Contracts\\ImageProcessor.Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alejandro.Severiche\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\6.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
